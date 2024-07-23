@@ -1,0 +1,124 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    color: whitesmoke;
+    background: url('img/4.jpg');
+}
+.box {
+    background-color: blue;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    font-size: 1.7em;
+}
+img {
+    width: 100%;
+}
+.presentation .container-fluid{
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+}
+.presentation .container{
+    margin-top: 0em;
+    margin-bottom: 3em;
+}
+.actu .container-fluid{
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+    
+}
+.presentation .container{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 70px;
+}
+p {
+    font-size: 1.5em;
+    text-align: center;
+}
+.card .btn {
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0 auto;
+    background-color: azure;
+    color: dark;
+}
+.card .btn:hover {
+    
+    background-color: transparent;
+    color: dark;
+}
+.parallax-effect {
+    background-image: url("../img/13.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg {
+    background-color: white;
+    opacity:0.95;
+    color: black;
+  }
+  .btn {
+    font-size: x-large;
+  }
+  footer a {
+    /* text-decoration: none; */
+    color: aliceblue;
+  }
+  .page-link {
+    color:brown;
+  }
+  .page-link.active, .active > .page-link {
+    z-index: 3;
+    color: black;
+    background-color: brown;
+    border-color: brown;
+  }
+  .pagination {
+    justify-content: center;
+  }
+.card {
+    padding: 0px;
+    margin: 0;
+    margin-right: 55px;
+    margin-top: 30px;
+    border: none;
+}
+
+.collection {
+    justify-content: space-between;
+}
+.collection .card {
+    position: relative;
+    width: 18rem;
+}
+
+.collection .card:hover::after {
+    content: attr(data-car-name);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.collection .btn-voir-voiture {
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    width: max-content;
+  }
